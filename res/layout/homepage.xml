@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weibo_cbg"
+    android:orientation="vertical" >
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+    <LinearLayout 
+        android:layout_width="match_parent"
+       android:layout_height="40dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/map_01"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toptv"
+              android:textSize="20sp"
+            android:textColor="#ffffffff"
+            />
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageView
+        android:contentDescription="@string/des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+   
+        android:src="@drawable/main" />
+   </LinearLayout>
+      <LinearLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+           android:layout_marginTop="10dip"
+          >
+    <LinearLayout 
+         android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+         android:layout_weight="1"
+         android:gravity="center"
+        >
+     <ImageButton 
+         android:contentDescription="@string/des"
+         android:id="@+id/btnhotel"
+         android:src="@drawable/a5_1" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+       android:background="#00000000"
+      
+         />
+
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#000000"
+         android:textSize="20sp"
+         android:text="住宿"
+         android:layout_gravity="center"
+         
+         />
+    </LinearLayout>
+ 
+     <LinearLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+         >
+         
+        <ImageButton 
+                 android:contentDescription="@string/des"
+                 android:id="@+id/btnres"
+               android:src="@drawable/a6_1"
+                android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:background="#00000000"
+         />
+
+            <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#000000"
+         android:textSize="20sp"
+         android:text="美食"
+         android:layout_gravity="center"
+         
+         />   
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_weight="1"
+     android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageButton 
+            android:id="@+id/btntjxl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/a11_1"
+            android:background="#00000000"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="推荐线路"
+            />
+    </LinearLayout>
+    </LinearLayout>
+      <LinearLayout 
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+        android:layout_marginTop="20dip"
+          >
+           <LinearLayout 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+              android:layout_weight="1"
+              android:gravity="center"
+               >
+                 <ImageButton 
+         android:contentDescription="@string/des"
+      android:id="@+id/btnplace"
+         android:src="@drawable/a4_1" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:background="#00000000"
+         />
+        
+                  <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#000000"
+         android:textSize="20sp"
+         android:text="美景"
+         android:layout_gravity="center"
+         
+         />
+                 </LinearLayout>
+       
+          <LinearLayout 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="center"
+                android:orientation="vertical"
+              >
+              
+             <ImageButton 
+         android:contentDescription="@string/des"
+       android:id="@+id/btnconfig"
+         android:src="@drawable/a7_1" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+      
+          android:background="#00000000"
+         />
+     
+      <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#000000"
+         android:textSize="20sp"
+         android:text="购物"
+         android:layout_gravity="center"
+         
+         />
+      </LinearLayout>
+       <LinearLayout 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+         android:layout_weight="1"
+         android:gravity="center"
+           >
+           <ImageButton 
+               android:id="@+id/btnlydt"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/a3_1"
+               android:background="#00000000"
+               />
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="旅游动态"
+               android:textSize="20sp"
+               android:textColor="#000000"
+               />
+       </LinearLayout> 
+      
+    </LinearLayout>
+    </LinearLayout>
+       </ScrollView>
+  
+</LinearLayout>
